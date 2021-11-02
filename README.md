@@ -11,7 +11,9 @@ This project has been developed by the following final year students of the Mech
 Due to the limitations in the current context due to the COVID-19 pandemic, there is a complicated situation in data collection. Therefore, the Plant Pathology 2021 - FGVC82 dataset will be used. This dataset contains more of 18000 images with apple leaves affected by various diseases and a CSV (Comma Separated Values) format file, which contains the name of each images and its respective label.
 We would like to emphasize that, for the simplification of this work, we only want to use the images of healthy leaves, leaves affected by a single type of disease and leaves affected with multiple diseases, but only of a specific label, then the dataset is reduced to around 17000 images
 The dataset is available in the following link:
-https://www.kaggle.com/c/plant-pathology-2021-fgvc8/data?select=train.csv
+
+ * https://www.kaggle.com/c/plant-pathology-2021-fgvc8/data?select=train.csv
+
 The classes used for this project are:
 * Healthy
 * Scab
@@ -19,27 +21,41 @@ The classes used for this project are:
 * Complex
 * Rust
 * Frog Eye Leaf Spot
-*Inser images*
+
+Complex:
+![](images_for_readme/complex.jpg)
+Frog Eye Leaf Spot:
+![](images_for_readme/frog_eye_leaf_spot.jpg)
+Healthy
+![](images_for_readme/healthy.jpg)
+Rust:
+![](images_for_readme/rust.jpg)
+Scab:
+![](images_for_readme/scab.jpg)
+Powdery Mildew:
+![](images_for_readme/powdery_mildew.jpg)
 
 # (III) Exploratory Data Analysis (EDA)
 When you are starting a machine learning (ML) project, the most important thing to keep in mind is that data is the fundamental basis of everything. Andrew Ng, former Baidu chief science officer and founding leader of the Google Brain team, said in an interview with Wired magazine: “*The analogy with deep learning [one of the key processes in creating artificial intelligence] is that the rocket engine they are deep learning models and the fuel is the huge amounts of data that we can feed to these algorithms.* ”
 
 We can see the number of images of each class in the data set in the following figure:
-*Insert EDA1.png*
+![](images_for_readme/EDA1.png)
 
 To get an overview of the data we can see the next figure:
-*insert eda2.png*
+![](images_for_readme/EDA2.png)
 
 As we see in the image avobe, we have imbalanced classes, one practical solution is to get smaller samples of the dataset then proportions are closer. Then, final proportion of classes are in the following figure:
-*Insert EDA3.png*
+![](images_for_readme/EDA3.png)
 
 # (IV) Image Processing
 There are many techniques to process images, like Otsu, Canny Edge detector, Roi and Edge ROI image. In this project for the images processing, the processing granted by the Keras tensorflow library has been used, which offers us the possibility of processing the images with the same processing with which the Mobilenet architecture was trained. What the preprocessing does is scale the image pixels to values between -1 and 1 and returns a float32 type tensor. Also, the image size has been scaled to 224 x 224 pixels as this is the image size that MobileNet has trained with.
-*Insert processingImage.png*
+
+![](images_for_readme/processingImage.png)
 
 # (V) MobileNet Architecture
 MobileNet features an architecture consisting of depth separable convolutions to make the network deep, yet lightweight.
-*Insert mobilenetArchitecture.png*
+![](images_for_readme/mobilenetArchitecture.png)
+
 The MobileNet architecture is imported through the Keras applications API. It has been imported with the following arguments:
 
 |  Argument | Value |
@@ -62,31 +78,31 @@ The model will have all the trainable layers, the number of total, trainable and
 
 # (VII) Results
 The model started with a good performance, with initial values of F1 score of 0.7868 for training and 0.8731 for validation. The training stopped after 18 epochs because the validation loss stopped decreasing (the EarlyStopping object was activated). The curves for training and validation can be seen in the following figure:
-*insertar curves_F1score_loss.png*
+
+![](images_for_readme/curves_F1score_loss.png)
 
 The model is evaluated with the *evaluate* method and the following results are obtained:
 
-| |F1score | loss|
-| :------------: | :------------: |
-|Training |0.0085 | 0.998|
-|Validation | 0.2911 | 0.9206|
-|Test | 0.3382 | 0.9157|
+|   | Loss  | F1 score  |
+| :------------: | :------------: | :------------: |
+|  Training | 0.0085  |  0.998  |
+| Validation  |  0.2911 | 0.9206  |
+| Test  |  0.3382 | 0.9157  |
 
 # (VIII) Confusion Matrix
 The confusion matrix has been plotted for the results of the prediction of the test set, the following figure shows the confusion matrix:
-
-*insertar confusionMatrix.png*
+![](images_for_readme/confusionMatrix.png)
 
 A summary table of true positives and false positives is displayed:
 
-|                     |Number of samples | TP | FP | Accuracy|
-| :------------: | :------------: |
-|Complex | 140 | 121 | 19 | 86.4|
-|Frog eye leaf spot | 147 | 140 | 7 | 95.2|
-|healthy | 165 | 156 | 9 | 94.5|
-|powdery mildew | 125 | 116 | 9 | 92.8|
-|rust | 216 | 184 | 32 | 85.2|
-|scab | 151 | 147 | 4 | 97.4|
+|   | Number of samples  | TP  |  FP |  Accuracy |
+| :------------: | :------------: | :------------: | :------------: | :------------: |
+| Complex  | 140  | 121  | 19  | 86.4  |
+| Frog eye leaf spot  | 147  | 140  | 7  | 95.2  |
+|  healthy | 165  | 156  | 9  | 94.5  |
+| powdery mildew  | 125  | 116  | 9  | 92.8  |
+|  rust | 216  | 184  | 32  | 85.2  |
+| scab  | 151  | 147  | 4  | 97.4  |
 
 References:
 * https://github.com/CodingWitcher/Leaf_Diseases
