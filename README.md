@@ -54,6 +54,7 @@ There are many techniques to process images, like Otsu, Canny Edge detector, Roi
 
 # (V) MobileNet Architecture
 MobileNet features an architecture consisting of depth separable convolutions to make the network deep, yet lightweight.
+
 ![](images_for_readme/mobilenetArchitecture.png)
 
 The MobileNet architecture is imported through the Keras applications API. It has been imported with the following arguments:
@@ -79,7 +80,8 @@ The model will have all the trainable layers, the number of total, trainable and
 # (VII) Results
 The model started with a good performance, with initial values of F1 score of 0.7868 for training and 0.8731 for validation. The training stopped after 18 epochs because the validation loss stopped decreasing (the EarlyStopping object was activated). The curves for training and validation can be seen in the following figure:
 
-![](images_for_readme/curves_F1score_loss.png)
+![](images_for_readme/curves_F1score.png)
+![](images_for_readme/curves_loss.png)
 
 The model is evaluated with the *evaluate* method and the following results are obtained:
 
@@ -91,6 +93,7 @@ The model is evaluated with the *evaluate* method and the following results are 
 
 # (VIII) Confusion Matrix
 The confusion matrix has been plotted for the results of the prediction of the test set, the following figure shows the confusion matrix:
+
 ![](images_for_readme/confusionMatrix.png)
 
 A summary table of true positives and false positives is displayed:
