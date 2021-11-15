@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">leaf_diseases_app</string>
+    <string name="resultado">
+        Clase: <br/>
+        Probabilidad:
+    </string>
+    <string name="complex1"></string>
+
+    <string name="complex2"></string>
+
+    <string name="frog_eye_leaf_spot">
+        - Esta enfermedad causada por el hongo <i>Botryosphaeria obtusa</i> ocurre cuando durante el invierno
+        a temperaturas de aproximadamente 20°C, 100% de humedad relativa y con un periodo de humedad en
+        la hoja de 40 horas lo que facilita al patógeno su alojamiento en cancros
+        y momias de frutas. Luego, durante la primavera se liberan dos esporas (conidios y ascosporas)
+        las cuales se propagan mediante el viento, la lluvia y los insectos.<br/>
+
+        - La infección secundaria se da durante la temporada de crecimiento cuando los conidios se
+        producen dentro de los picnidios en los tejidos infectados. Para que esto sea posible se requiere
+        que la planta tenga aberturas naturales o heridas para que el hongo pueda producir la infección.<br/>
+        <br/><b>Síntomas</b><br/>
+        -	Al inicio de la infección aparecen manchas violáceas en las hojas de la planta, estos puntos
+        son circulares y miden entre 1/4 y 1/8 de pulgada de diámetro. Los centros de estas manchas
+        adquieren un color bronceado con márgenes de color marrón oscuro o violáceos. Luego de que
+        aparecen estas manchas, las hojas desarrollan estructuras reproductivas fúngicas las cuales
+        tienen apariencia de pequeñas motas negras, las cuales se pueden apreciar mediante una lupa.
+        Estas estructuras están llenas de esporas, las cuales producen que la infección se dé de manera
+        continua, produciendo que a medida que la infección va avanzando las hojas tomen un color amarillento
+        y caigan prematuramente.<br/>
+        -	Fernandez et al. determinaron en 2019 que las lesiones causadas por esta enfermedad tienen
+        la característica de que su efecto se hace raramente notorio en la parte abaxial
+        (envés o superficie oculta del sol) de la hoja, presentándose las manchas sólo en la cara adaxial
+        (haz o superficie expuesta al sol).
+    </string>
+
+    <string name="healthy">
+        - La manzana es un típico pomo, comestible, que presenta restos de cáliz en el ápice, la piel
+        puede presentar diferentes tonos de color desde el amarillo, hasta el rojo, variando su tamaño
+        según la variedad (ver figura 12). Las semillas de esta fruta se encuentran en su interior,
+        en el denominado ovario ínfero que está inmerso en la pulpa del fruto y tiene entre una o más
+        semillas por segmento.
+    </string>
+
+    <string name="powdery_mildew">
+        - Esta enfermedad es causada por el hongo <i>Podosphaera leucotricha</i> y puede llegar a causar
+        pérdidas económicas severas en cultivos susceptibles en los años en los que la manzana está en crecimiento.<br/>
+        - El hongo <i>Podosphaera leucotricha</i> pasa el invierno en las yemas de las frutas y las hojas mostrando
+        los primeros síntomas durante la primavera. Las esporas que se generan de estas hojas infectadas
+        dan lugar a otra infecciones de tipo secundarias cuya extensión es durante la primavera y principios del verano.<br/>
+        - Cabe resaltar lo que Marine, Yoder, &amp; Baudoin explican en su articulo titulado <i>Powdery Mildew of Apple</i>
+        en donde indican que las condiciones para que se desarrolle el moho polvoroso son la ausencia de lluvia,
+        temperaturas entre 10 a 25 ° C y una humedad relativa alta, de aproximadamente 70% y que, a diferencia
+        de otros hongos, en este caso la humectación de las hojas es un impedimento para la propagación de la infección.<br/>
+        - Manga (2019) explica que los altos niveles de esta enfermedad al final de la temporada de crecimiento
+        pueden generar daños en el árbol de dos maneras, en primer lugar, se aumenta la cantidad de brotes
+        infectados, por lo que tendrá un alto nivel de infección la próxima etapa de florecimiento.
+        Y segundo, puede inhibir la formación de botones florales, por lo que se reduce e incluso se
+        evita la producción de frutos en la siguiente temporada.<br/>
+
+        <b>Síntomas</b><br/>
+        -	Retraso de hasta cuatro días en la apertura de los brotes del árbol de manzano infectado pues, estos brotes están cubiertos de esporas.<br/>
+        -	La fruta infectada se decolora y presenta un color marrón rojizo, puede presentar una forma irregular, estar distorsionado y/o enano.<br/>
+        -	La infección produce que las hojas aumenten su longitud, pero no su ancho, plegándose longitudinalmente. Además, en las hojas aparecen
+        lesiones que pueden llegar a cubrir toda la superficie con esporas blancas y micelio.<br/>
+        -	Las hojas pueden llegar a adquirir una apariencia arrugada. Cuando la infección es avanzada aparecen cuerpos fructíferos de color
+        marrón oscuro, produciendo que los cogollos infectados sean más susceptibles a lesiones invernales que los cogollos sanos.<br/></string>
+
+    <string name="rust">
+        Esta infección causada por el hongo Gymnosporangium debilatan las hojas de los árboles y resulta
+        en una reducción en el tamaño y calidad de la fruta. Además, puede causar infecciones durante
+        varios años consecutivos provocando retraso en el crecimiento, mayor susceptibilidad a las
+        lesiones invernales y falta de producción de frutos. En casos más graves se puede producir la
+        muerte de los árboles. Las frutas infectadas pueden caer prematuramente, mientras que las que
+        permanecen en los árboles hasta la cosecha tienen un valor de mercado reducido.<br/>
+        <b>Síntomas</b><br/>
+        -	En las hojas se producen pequeñas manchas de un color amarillo pálido, las cuales se van agrandando
+        a medida que la infección avanza, pudiendo llegar hasta 1/4 de pulgada de diámetro con un color
+        amarillo anaranjado brillante y rodeadas de un borde rojizo. Las picnias (cuerpos fructíferos
+        de los hongos) aparecen como puntos negros en los centros de las manchas. A medida que la
+        infección va avanzando el tejido afectado se va volviendo más grueso y con el tiempo las
+        hojas infectadas se pueden volver amarillas y caer.
+
+    </string>
+
+
+    <string name="scab1">
+        - Esta enfermedad causada por el hongo <i>Venturia inequalis</i> presenta dos ciclos: la primera infección,
+        la cual se da cuando durante el invierno el hongo infecta a las hojas del manzano caídas,
+        y en la temporada de primavera las esporas del hongo son transportadas por el viento de estas
+        hojas caídas a las hojas y frutos que recién están emergiendo de los árboles sanos.<br/>
+
+        - La segunda infección ocurre cuando se forman esporas secundarias, las que ocasionan que el árbol
+        se vuelva infectar a si mismo o infecte a los árboles que se encuentran cerca siempre que se den
+        las condiciones ambientales necesarias, las cuales son ambiente húmedo por periodos mayores a seis horas,
+        en la siguiente figura se puede apreciar una manzana con etapa avanzada de esta enfermedad.
+    </string>
+    <string name="scab2">
+        <b>Síntomas</b><br/>
+        - En las hojas la infección primero aparece como manchas verdes con márgenes difusos en ambos lados de las hojas infectadas,
+        para luego que va avanzando la enfermedad las manchas se van volviendo más negras con un contorno más prominente,
+        además de sentirse aterciopeladas al tacto. Finalmente, las hojas se volverán amarillas y caerán prematuramente<br/>
+        - En las frutas la infección produce manchas de color marrón oscuro que a medida que la infección avance se irán
+        volviendo de color negro. Luego de un tiempo se producirán “costras” en la fruta las que se irán agrietando a medida
+        que la fruta va creciendo
+    </string>
+</resources>

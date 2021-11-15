@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rectangulo"
+    tools:context=".Diseases">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/rectangulo"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="Clases usadas para este proyecto"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/processedimage" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:columnCount="2"
+                android:rowCount="3"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Complex"/>
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/complex" />
+                        <TextView
+                            android:id="@+id/tvComplex"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="12sp"
+                            android:layout_marginTop="5dp"
+                            android:text="Conocer más" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Frog eye leaf spot"/>
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/frog_eye_leaf_spot" />
+                        <TextView
+                            android:id="@+id/tvFels"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="12sp"
+                            android:layout_marginTop="5dp"
+                            android:text="Conocer más" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Healthy"/>
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/healthy" />
+                        <TextView
+                            android:id="@+id/tvHealthy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="12sp"
+                            android:layout_marginTop="5dp"
+                            android:text="Conocer más" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Powdery mildew"/>
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/powdery_mildew" />
+                        <TextView
+                            android:id="@+id/tvPM"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="12sp"
+                            android:layout_marginTop="5dp"
+                            android:text="Conocer más" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Rust"/>
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/rust" />
+                        <TextView
+                            android:id="@+id/tvRust"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="12sp"
+                            android:layout_marginTop="5dp"
+                            android:text="Conocer más" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Scab"/>
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/scab" />
+                        <TextView
+                            android:id="@+id/tvScab"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6bb16b"
+                            android:textSize="12sp"
+                            android:layout_marginTop="5dp"
+                            android:text="Conocer más" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+            <ImageButton
+                android:id="@+id/btnDiseaseInicio"
+                android:layout_width="@dimen/size_button"
+                android:layout_height="@dimen/size_button"
+                android:layout_gravity="center"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/casa_inicio"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

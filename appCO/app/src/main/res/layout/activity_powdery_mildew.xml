@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Powdery_mildew">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangulo"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="Powdery Mildew"
+            android:textSize="24sp"></TextView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/powdery_mildew"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:text="@string/powdery_mildew"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btnPMLeft"
+                    android:layout_width="@dimen/size_button"
+                    android:layout_height="@dimen/size_button"
+                    android:layout_gravity="left"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flecha_izquierda"/>
+                <ImageButton
+                    android:id="@+id/btnPMInicio"
+                    android:layout_width="@dimen/size_button"
+                    android:layout_height="@dimen/size_button"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/casa_inicio"/>
+                <ImageButton
+                    android:id="@+id/btnPMRight"
+                    android:layout_width="@dimen/size_button"
+                    android:layout_height="@dimen/size_button"
+                    android:layout_gravity="right"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flecha_derecha"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
